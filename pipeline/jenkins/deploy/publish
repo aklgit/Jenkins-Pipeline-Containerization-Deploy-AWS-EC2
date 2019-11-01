@@ -5,4 +5,5 @@ export TAG=$(sed -n '2p' /tmp/.auth)
 export PASS=$(sed -n '3p' /tmp/.auth)
 
 docker login -u dockerusername -p $PASS
+# create a folder maven in remote machine and write a docker-compose file with the image name , so that docker-compose up -d will start the container
 cd ~/maven && docker-compose up -d
