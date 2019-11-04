@@ -15,7 +15,7 @@ Below are the build steps for packaging a java app using maven
 
 ## Test
 
-Test the project build using mvn test.
+        Test the project build using mvn test.
 
 ## Push
 
